@@ -1,5 +1,9 @@
 #! /bin/bash
-if [ -e /etc/passwd ]
+SHELL="bash"
+if [ "$SHELL" = "bash" ]
 then
-echo "File exists!!!"
+echo "You are using Bash!!!"
+elif [ "$SHELL" = "csh" ]
+then
+echo "You are using csh!!!"
 fi
