@@ -1,3 +1,3 @@
-#! /bin/bash
+#!/bin/bash
 var="Shell Scripting is Fun!" 
-echo ${var}
+echo $(var)
